@@ -12,7 +12,7 @@ A proposta foi desenvolvida com base em três serviços principais:
 
 ### 🎥 Pub-Camera
 
-O `pub-camera` é um serviço desenvolvido exclusivamente para testes e validação do modelo híbrido, sem a necessidade de alterações no gateway original da câmera.
+O [`pub-camera`](https://github.com/giovanapr/hybrid-communication/tree/main/Pub-Camera/src) é um serviço desenvolvido exclusivamente para testes e validação do modelo híbrido, sem a necessidade de alterações no gateway original da câmera.
 
 **Funções principais:**
 - Consome imagens do gateway da câmera.
