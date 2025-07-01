@@ -24,7 +24,7 @@ O `pub-camera` é um serviço desenvolvido exclusivamente para testes e validaç
 
 ### 🧍 Person-Detector
 
-O `person-detector` é responsável pela detecção de pessoas nas imagens recebidas.
+O [`person-detector`](https://github.com/giovanapr/hybrid-communication/tree/main/is-person-detector) é responsável pela detecção de pessoas nas imagens recebidas.
 
 **Funções principais:**
 - Inicialmente, consumia diretamente do gateway, mas foi adaptado para receber imagens do `pub-camera`.
