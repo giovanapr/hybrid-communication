@@ -32,7 +32,7 @@ O `person-detector` é responsável pela detecção de pessoas nas imagens receb
 - Publica os resultados detectados.
 - Foi adaptado para se comunicar via socket e alternar o modelo de comunicação conforme orientações recebidas.
 
-> ℹ️ Para mais detalhes sobre o funcionamento original deste serviço, consulte o repositório [`src/is_person_detector/stream.py`](https://github.com/JoabFelippx/is-person-detector/blob/main/is_person_detector/stream.py).
+> ℹ️ Para mais detalhes sobre o funcionamento original deste serviço, consulte o repositório [`Person-Detector`](https://github.com/JoabFelippx/is-person-detector).
 
 ---
 
