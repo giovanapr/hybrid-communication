@@ -12,7 +12,7 @@ A proposta foi desenvolvida com base em três serviços principais:
 
 ### 🎥 Pub-Camera
 
-O [`pub-camera`](https://github.com/giovanapr/hybrid-communication/tree/main/Pub-Camera) é um serviço desenvolvido exclusivamente para testes e validação do modelo híbrido, sem a necessidade de alterações no gateway original da câmera.
+O [`pub-camera`](https://github.com/giovanapr/hybrid-communication/tree/main/Pub-Camera/src) é um serviço desenvolvido exclusivamente para testes e validação do modelo híbrido, sem a necessidade de alterações no gateway original da câmera.
 
 **Funções principais:**
 - Consome imagens do gateway da câmera.
@@ -32,13 +32,13 @@ O [`person-detector`](https://github.com/giovanapr/hybrid-communication/tree/mai
 - Publica os resultados detectados.
 - Foi adaptado para se comunicar via socket e alternar o modelo de comunicação conforme orientações recebidas.
 
-> ℹ️ Para mais detalhes sobre o funcionamento original deste serviço, consulte o repositório [`Person-Detector`](https://github.com/JoabFelippx/is-person-detector).
+> ℹ️ Para mais detalhes sobre o funcionamento original deste serviço, consulte o repositório [`is-person-detector`](https://github.com/JoabFelippx/is-person-detector).
 
 ---
 
 ### 🧠 Orquestrador
 
-O [`orquestrador`](github.com/giovanapr/hybrid-communication/tree/main/Orquestrador) é o componente responsável por tornar a **camada de comunicação programável**, permitindo a adaptação dinâmica do modelo conforme o contexto.
+O [`orquestrador`](github.com/giovanapr/hybrid-communication/tree/main/Orquestrador/src) é o componente responsável por tornar a **camada de comunicação programável**, permitindo a adaptação dinâmica do modelo conforme o contexto.
 
 **Funções principais:**
 - Coleta métricas de desempenho a partir do **Zipkin** e do **Broker**.
