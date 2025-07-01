@@ -1,0 +1,6 @@
+is-wire
+is-msgs
+numpy
+opencv-python
+ultralytics
+opencensus-ext-zipkin
