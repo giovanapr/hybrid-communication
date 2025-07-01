@@ -1,0 +1,7 @@
+{
+    "broker_uri": "amqp://guest:guest@10.10.1.62:5672",
+    "zipkin_uri": "http://10.10.2.211:30200",
+    "conmtrace_host": "10.10.2.211",
+    "conmtrace_port": 31589,
+    "model": "../model/yolov8m-pose.pt"
+}
