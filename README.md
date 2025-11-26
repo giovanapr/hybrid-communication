@@ -3,6 +3,7 @@
 ## 💡 Proposta de um Modelo Híbrido de Comunicação para Espaço Inteligente
 
 Este repositório contém uma prévia da implementação de um modelo híbrido de comunicação voltado para espaços inteligentes. O modelo principal adotado é o **publish/subscribe**, e o modelo híbrido proposto combina essa abordagem com uma comunicação direta via **socket TCP**.
+Esse trabalho foi desenvolvido como Trabalho de Conclusão de Curso (TCC) da Graduação de Engenharia Elétrica - IFES Caumpus Guaraparo.
 
 ---
 
